@@ -22,7 +22,7 @@
 #5
 #42
 
-#4 * 100$  = 400$
+# 4 * 100 == 400
 
 # total_price = 0
 # for i in range(5):
@@ -30,13 +30,15 @@
 #     if age_of_user >= 3:
 #         total_price += 100
 
-# print(total_price)
+# print("total_price")
 
-my_list = ["xinkali", "mwvadi", "lobiani", "qababi", "xachapuri", "wyali"]
-for food in my_list:
-    print("xinkali" + "2")
-    print("mwvadi" + "20")
-    print("lobiani" + "15")
-    print("qababi" + "10")
-    print("xachapuri" + "15")
-    print("wyali" + "2")
+# my_list = ["xinkali", "mwvadi", "lobiani", "qababi", "xachapuri", "wyali"]
+# for food in my_list:
+#     print("xinkali" + "2")
+#     print("mwvadi" + "20")
+#     print("lobiani" + "15")
+#     print("qababi" + "10")
+#     print("xachapuri" + "15")
+#     print("wyali" + "2")
+
+
