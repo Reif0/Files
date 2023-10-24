@@ -107,15 +107,17 @@
 # print(sum)
 
 # home work 13
-hight = 1.60
-weight = 55
-age = 18
-if hight <= 2.30:
-    if weight <= 130:
-        if age <= 27:
-            print("tqven chairicxet savaldebulo jarshi")
-else:
-    ("tqven ver daakmayofilet monacemebi")
-      
+# hight = 1.60
+# weight = 55
+# age = 18
+# if hight <= 2.30:
+#     if weight <= 130:
+#         if age <= 27:
+#             print("tqven chairicxet savaldebulo jarshi")
+# else:
+#     ("tqven ver daakmayofilet monacemebi")
+
+# home work 14
+
 
 
