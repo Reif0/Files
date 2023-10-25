@@ -118,6 +118,11 @@
 #     ("tqven ver daakmayofilet monacemebi")
 
 # home work 14
+initial_price = int(input("enter initial price: "))
+depreciation_presentage = int(input("enter depreciation precentage: "))
+profit_precetntage= int(input("enter profit precentage: "))
+profit_precetntage_before = profit_precetntage /(1 - depreciation_presentage / 100)
+print("profit precentage before price reduction:{}". format(profit_precetntage_before))
 
 
 
