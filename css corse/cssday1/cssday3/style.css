@@ -1,0 +1,52 @@
+header {
+    background-color: burlywood;
+    padding: 20px;
+    text-align: left;
+    font-size: 35px;
+    color: #212529;
+    border-radius: 20px;
+}
+#logo{
+    width: 150px;
+    border-radius: 100%;
+    float: right;
+}
+#heading{
+    font-size: 50px;
+    text-align: center;
+}
+.text_color{
+    color: burlywood;
+    font-size: 25px;
+}
+#text1{
+    font-size: 20px;
+}
+
+#menu_heading{
+    text-align: center;
+    font-size: 40px;
+}
+.body{
+    background-image: url(/images/ee558b1d2578d8c74c310f914dc910f0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+text{
+    color: aliceblue;
+}
+ul{
+    color: aliceblue;
+}
+ul{
+    font-size: 20px;
+}
+footer{
+    background-color: burlywood;
+    padding: 8px;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+}
