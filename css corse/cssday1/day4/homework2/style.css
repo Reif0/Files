@@ -1,0 +1,28 @@
+table, tr ,td{
+    border: 2px solid yellow;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    background-color: yellow;
+}
+tr:nth-child(2){
+    background-color: red;
+}
+tr:nth-child(3){
+    background-color: greenyellow;
+}
+tr:nth-child(4){
+    background-color: greenyellow;
+}
+tr:nth-child(5){
+    background-color: greenyellow;
+}
+tr:nth-child(6){
+    background-color: greenyellow;
+}
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+

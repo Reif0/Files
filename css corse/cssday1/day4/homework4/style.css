@@ -1,0 +1,15 @@
+body {
+    background-color: purple;
+}
+th{
+    border: none;
+    background-color: aquamarine;
+    border-collapse: collapse;
+}
+tr{
+    background-color: aquamarine;
+}
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }

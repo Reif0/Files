@@ -1,0 +1,28 @@
+body{
+    background-color: darkgreen;
+}
+th{
+    background-color: aquamarine;
+}
+table, tr, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+div {
+    size: 100px;
+}
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+th{
+    height: 70px;
+}
+table{
+    width: 50%;
+}
+td {
+    line-height: 50px;
+}
+

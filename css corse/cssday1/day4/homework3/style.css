@@ -1,0 +1,21 @@
+table, th, tr ,td{
+    border: 2px solid white;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    background-color: blue;
+}
+tr:nth-child(odd){
+    background-color: lightblue;
+}
+tr:nth-child(even){
+    background-color: lightcyan;
+}
+body{
+    background-color: gray;
+}
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
