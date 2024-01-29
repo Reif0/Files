@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%) ;
+    height: 100vh;
+}
+.card{
+    display: flex;
+    background-color: hsl(0, 0%, 12%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+img{
+    border-radius: 50% ;
+    width: 85px;
+}
+.head h1{
+    
+    color: white;
+    font-weight: 700;
+}
+.head p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 14px;
+}
+.p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.669);
+    transform: translateY(25px);
+    
+}
+p{
+    transform: translateY(-5px);
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 25px ;
+    padding-right: 25px;
+    padding-bottom: 30px;
+} 
+
+.button button{
+    background-color: hsl(0, 0%, 20%);
+    width: 270px;
+    border: none;
+    padding: 15px 32px ;
+    border-radius: 10px;
+    color: white;
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
