@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(image/geometric-gradient-futuristic-background_23-2149116406.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    font-family: sans-serif;
+}
+.nav1{
+    gap: 30px;
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    top: 30px;
+}
+.nav1 a{
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.pp{
+    size: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: 550;
+    position:absolute;
+    right: 850px;
+    top: 25px;
+    cursor: pointer;
+}
+.nav2{
+    position:absolute;
+    right: 0;
+    margin-right: 30px;
+    font-size: 20px;
+    position:absolute;
+    top: 20px;
+}
+.nav2 button{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.nav2 a{
+    text-decoration: none;
+    color: black;
+}
+.nav3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 200px;
+}
+.nav3 button{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.624);
+    color: #fff;
+}
+.nav3 button:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.head{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    line-height: 1.5;
+}
+.head p{
+    padding-top: 30px;
+}
+form input{
+    padding: 20px;
+    width: 650px;
+    position: relative;
+    left: 650px;
+    top: 300px;
+    height: 70px;
+    border-radius: 40px;
+    border: none;
+}
+.img{
+    width: 30px;
+    position: relative;
+    left: 670px;
+    top: 250px;
+    opacity: 40%;
+}
+.trending{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 350px;
+    right: 20px;
+    color: #fff;
+}
+.trending button{
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+    top: -25px;
+    border: 2px solid #fff;
+    background-color: #ffffff00;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.trending button:hover{
+    color: black;
+    background-color: #fff;
+    transition: 0.5s;
+}
+footer{
+    position:relative;
+    top: 500px;
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+}
