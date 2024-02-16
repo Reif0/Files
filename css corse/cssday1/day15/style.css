@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: url(image/black_labrador_dog_is_standing_in_between_plant_leaves_4k_hd_dog-3840x2160.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vh;
+}
+.top{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 5px;
+    opacity: 80%;
+}
+.link a{
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+    cursor: pointer;
+}
+.buttom{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.buttom img{
+    position: relative;
+    left: -60px;
+}
+.buttom h2{
+    position: relative;
+    left: -200px;
+}
+.link1{
+    position: relative;
+    top: 20px;
+}
+.link1 a{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+.buttons button{
+    padding: 10px;
+    margin: 10px;
+    width: 130px;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    height: 45px;
+    cursor: pointer;
+}
+button{
+    position: relative;
+    right: -70px;
+    top: -10px;
+}
+.nav-bar{
+    background-color: #fff;
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+.presentation{
+    position: relative;
+    top: 400px;
+    left: 150px;
+    font-size: 30px;
+    color: #fff;
+}
+.presentation p{
+    margin-top: 30px;
+}
+.presentation button{
+    margin-top: 30px;
+    padding: 15px;
+    width: 130px;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    height: 45px;
+    cursor: pointer;
+    background-color: orange;
+    position: relative;
+    left: -5px;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 460px;
+}
+.dot1{
+    background-color: #fff;
+    position: relative;
+    top: 500px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.dot2{
+    background-color: #fff;
+    position: relative;
+    top: 500px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    opacity: 60%;
+}
+.dot3{
+    background-color: #fff;
+    position: relative;
+    top: 500px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    opacity: 60%;
+}
+
+footer{
+    background-color: #fff;
+    position: relative;
+    top: 600px;
+    width: 199.73%;
+    display: flex;
+    justify-content: space-around;
+    color: brown;
+    font-size: 30px;
+}
+footer img{
+    width: 300px;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer button{
+    margin-top: 40px;
+    position: relative;
+    left: -5px;
+    padding: 15px;
+    background-color: #fff;
+    width: 150px;
+    border-radius: 30px;
+    border: 2px black solid;
+    color: brown;
+    font-weight: 600;
+    cursor: pointer;
+}
+footer button:hover{
+    background-color: brown;
+    color: #fff;
+    transition: 0.5s;
+}
