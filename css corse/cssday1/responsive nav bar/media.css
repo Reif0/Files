@@ -1,0 +1,16 @@
+@media (max-width:900px) {
+    ul a{
+        display: none;
+    }
+    nav ul img{
+        display: block;
+    }
+    form input{
+        width: 200px;
+    }
+}
+@media (max-width:500px) {
+    form input{
+        display: none;
+    }
+}
